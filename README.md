@@ -83,3 +83,18 @@ rm -rf fonts
 ### Notes
 1. Make sure to have `<LF>` as end line for all .bash files, else **Cygwin** can not deal with `\r` character.
 2. **Notepad++** is very handy to do that
+
+## Installation
+``` shell
+# Get the dotfiles repo
+git clone https://github.com/jmparis/dotfiles.git dotfiles
+
+# Run the install.sh script
+cd dotfiles
+./install.sh
+
+# Cleaning
+cd ..
+rm -rf ./dotfiles
+```
+
