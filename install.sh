@@ -33,6 +33,6 @@ cp .minttyrc ~
 cp .vim* ~
 cp .emacs ~
 
-cp .gitattributes ~
-cp .gitconfig ~
-cp -r .git ~
+#cp .gitattributes ~
+#cp .gitconfig ~
+#cp -r .git ~
